@@ -6,3 +6,17 @@ _Note: This theme has been tested on Ubuntu 25.04 with a 1920x1080 resolution sc
       If you encounter any issues or have suggestions, please open an issue on the [GitHub repository](https://github.com/rohith-ck/elemental-gimp-theme)._
 
 ![Elemental GIMP 3.0 Theme](Screenshots/Elemental.png)
+
+## Installation Guide
+
+Follow these steps to install the **Elemental** theme for GIMP 3.0:
+
+### Step 1: Download the Theme Folder
+Download the **Elemental** theme folder from the repository.
+
+![Download theme folder](Screenshot/Step-1.png)
+
+### Step 2: Extract the Theme Folder
+Extract the downloaded theme folder to a location of your choice on your computer.
+
+![Extract theme folder](Screenshot/Step-2.png)
