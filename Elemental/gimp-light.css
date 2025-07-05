@@ -1,0 +1,29 @@
+/* Elemental 0.1 Alpha GIMP 3.0 Light Theme Developed by Rohith C K */
+       
+@define-color gray-5         #161616;
+@define-color gray-10        #242424;
+@define-color gray-15        #303030;
+@define-color gray-20        #3A3A3A;
+@define-color gray-30        #4D4D4D;
+@define-color gray-40        #616161;
+@define-color gray-50        #767676;
+@define-color gray-60        #8C8C8C;
+@define-color gray-70        #A4A4A4;
+@define-color gray-80        #BFBFBF;
+@define-color gray-85        #CDCDCD;
+@define-color gray-90        #DDDDDD;
+@define-color gray-95        #EDEDED;
+
+@define-color white          #FFFFFF;
+@define-color black          #000000;
+
+@define-color primary-95     #DEEAFC;
+@define-color primary-90     #C2D8FA;
+@define-color primary-85     #A1C3F7;
+@define-color primary-80     #89B4F5;
+@define-color primary-70     #5594F1;
+@define-color primary-60     #2B79EE;
+@define-color primary-50     #1261D9;
+@define-color primary-40     #0F50B3;
+
+@import url("common-light.css");

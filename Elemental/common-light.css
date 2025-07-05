@@ -1,0 +1,412 @@
+/* Elemental 0.1 Alpha GIMP 3.0 Light Theme Developed by Rohith C K */
+
+@import url("common.css");
+
+/******** Text ********/
+
+* {
+    color: @black;
+}
+
+*:disabled {
+    color: @gray-40;
+}
+
+selection {
+  background-color: @primary;
+  color: @white;
+}
+
+/******** Window ********/
+
+window, dialog, GimpFileDialog, GimpToolDialog {
+    background-color: @gray-95;
+}
+
+/******** Header Bar ********/
+
+headerbar {
+    background-color: @gray-95;
+    border-bottom: 1px solid @gray-80;
+}
+
+.minimize, .maximize, .close {
+    background-color: @gray-95;
+}
+
+/******** Separator ********/
+
+separator {
+    background-color: @gray-80;
+}
+
+paned > separator {
+    background-color: @gray-80;
+}
+
+/******** Tooltip ********/
+
+tooltip {
+    background-color: @gray-95;
+    border: 1px solid @gray-80;
+}
+
+tooltip decoration {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/******** Scrollbar ********/
+
+scrollbar {
+    background-color: @gray-90;
+}
+
+scrollbar slider{
+    background-color: @gray-80;
+}
+
+scrollbar slider:hover {
+    background-color: @gray-70;
+}
+
+/******** Popover ********/
+
+popover {
+    background-color: @gray-95;
+    border: 1px solid @gray-80;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/******** Button ********/
+
+button {
+    background-color: @white;
+    border: 1px solid @gray-80;
+}
+
+button:hover {
+    border: 1px solid @primary-80;
+}
+
+button:hover * {
+    color: @primary-50;
+}
+
+button:checked {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+button:checked:hover {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+button:disabled {
+    background-color: @gray-70;
+    border: 1px solid @gray-70;
+}
+
+.suggested-action {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+.suggested-action:hover {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+/******** Check Button ********/
+
+check {
+    background-color: @white;
+    border: 1px solid @gray-80;
+}
+
+check:checked {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+check:hover {
+    border: 1px solid @primary-80;
+    color: @primary-50;
+}
+
+check:checked:hover {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+    color: @primary-50;
+}
+
+/******** Radio Button ********/
+
+radio {
+    background-color: @white;
+    border: 1px solid @gray-80;
+}
+
+radio:checked {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+radio:hover {
+    border: 1px solid @primary-80;
+    color: @primary-50;
+}
+
+radio:checked:hover {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+    color: @primary-50;
+}
+
+/******** Switch ********/
+
+switch {
+    background-color: @white;
+    border: 1px solid @gray-80;
+    padding: 1px;
+}
+
+switch:checked {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+switch slider {
+    background-color: @gray-60;
+}
+
+switch:checked slider {
+    background-color: @primary-60;
+}
+
+/******** Entry ********/
+
+entry {
+    background-color: @white;
+    border: 1px solid @gray-80;
+}
+
+entry:focus {
+    border: 1px solid @primary-80;
+}
+
+/******** Scale ********/
+
+scale slider {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+scale slider:disabled {
+    background-color: @gray-70;
+    border: 1px solid @gray-70;
+}
+
+scale highlight {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+scale highlight:disabled {
+    background-color: @gray-70;
+}
+
+scale trough {
+    background-color: @gray-80;
+}
+
+/******** Gimp Spin Scale ********/
+
+GimpSpinScale progress {
+    background-color: @primary-90;
+    border: 1px solid @primary-80;
+}
+
+GimpSpinScale progress:disabled {
+    background-color: @gray-70;
+}
+
+/******** Menu Item ********/
+
+menubar {
+    background-color: @gray-95;
+}
+
+window > box > menubar {
+    border-bottom: 1px solid @gray-80;
+}
+
+menubar > menuitem:hover {
+    background-color: @gray-85;
+}
+
+.popup {
+    background-color: @gray-95;
+}
+
+.popup decoration {
+    border: 1px solid @gray-80;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+menuitem:hover {
+    background-color: @gray-85;
+}
+
+/******** Tool Bar ********/
+
+toolbutton window decoration{
+    border: 1px solid @gray-80;
+}
+
+toolbutton window {
+    background-color: @gray-95;
+}
+
+GimpDock > box > box > flowbox {
+    border-bottom: 1px solid @gray-80;
+}
+
+/******** List ********/
+
+list {
+    background-color: @gray-90;
+}
+
+list row:selected {
+    background-color: @primary-90;
+    border-top: 1px solid @primary-80;
+    border-bottom: 1px solid @primary-80;
+}
+  
+list row:hover {
+    background-color: @gray-80;
+}
+
+list row:selected:hover {
+    background-color: @primary-90;
+    border-top: 1px solid @primary-80;
+    border-bottom: 1px solid @primary-80;
+}
+
+list row:selected:hover * {
+    color: @primary-50;
+}
+
+/******** Tree View ********/
+
+.frame {
+    border: 1px solid @gray-80;
+    background-color: @gray-90;
+}
+
+.frame > .frame {
+    border-width: 0px;
+}
+
+treeview:selected {
+    background-color: @primary-90;
+    border-top: 1px solid @primary-80;
+    border-bottom: 1px solid @primary-80;
+}
+
+treeview:hover {
+    background-color: @gray-80;
+}
+
+treeview:selected:hover {
+    background-color: @primary-90;
+    border-top: 1px solid @primary-80;
+    border-bottom: 1px solid @primary-80;
+    color: @primary-50;
+}
+
+treeview header button {
+    background-color: @gray-90;
+    border-color: @gray-80;
+    border-width: 0px 1px 1px 0px;
+}
+
+treeview header button:hover {
+    background-color: @gray-90;
+    border-color: @gray-80;
+    border-width: 0px 1px 1px 0px;
+}
+
+treeview header button:last-child {
+    background-color: @gray-90;
+    border-color: @gray-80;
+    border-width: 0px 0px 1px 0px;
+}
+
+treeview header button:last-child:hover {
+    background-color: @gray-90;
+    border-color: @gray-80;
+    border-width: 0px 0px 1px 0px;
+}
+
+/******** Gimp Display Shell ********/
+
+GimpDisplayShell grid {
+    background-color: @gray-80;
+}
+
+GimpRuler {
+    background-color: @gray-95;
+}
+
+/******** Status Bar ********/
+
+statusbar {
+    background-color: @gray-95;
+    border-top: 1px solid @gray-80;
+}
+
+/******** Dialog ********/
+
+GimpFileDialog actionbar {
+    border-top: 1px solid @gray-80;
+}
+
+GimpFileDialog .frame {
+    border-width: 0px;
+}
+
+widget.view {
+    background-color: @gray-90;
+    border: 1px solid @gray-80;
+}
+
+/******** Notebook ********/
+
+notebook {
+    background-color: @gray-95;
+}
+
+notebook viewport.frame {
+    padding: 4px;
+}
+
+notebook header {
+    background-color: @gray-90;
+    border-bottom: 1px solid @gray-80;
+}
+
+notebook header tabs tab {
+    border-right: 1px solid @gray-80;
+}
+
+notebook header tabs tab:checked {
+    background-color: @gray-95;
+}
+  
+notebook header tabs tab:hover {
+    background-color: @gray-95;
+}
+
+/******** Miscellaneous ********/
