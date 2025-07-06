@@ -20,3 +20,18 @@ Download the **Elemental** theme folder from the repository.
 Extract the downloaded theme folder to a location of your choice on your computer.
 
 ![Extract theme folder](Screenshots/Step-2.png)
+
+### Step 3: Add the Folder to GIMP's Theme Folders List
+1. Open GIMP.
+2. Navigate to **Edit > Preferences > Folders > Themes**.
+3. Add extracted folder to Theme Folders list.
+4. Restart GIMP.
+
+![Add theme folder](Screenshots/Step-3.png)
+
+### Step 4: Apply the Theme in GIMP Preferences
+1. Open GIMP.
+2. Navigate to **Edit > Preferences > Theme**.
+3. Select **Elemental** from the list of available themes.
+
+![Change theme](Screenshots/Step-4.png)
