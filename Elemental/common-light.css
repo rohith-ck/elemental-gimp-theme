@@ -1,0 +1,391 @@
+/* Elemental - GIMP Theme
+ * Copyright (C) 2025 Rohith C K
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+@import url("common.css");
+
+/******** Text ********/
+
+* {
+    color: @text;
+}
+
+*:disabled {
+    color: @text-disabled;
+}
+
+selection {
+  background-color: @background-selection;
+  color: @text-selection;
+}
+
+/******** Window ********/
+
+window, dialog, GimpFileDialog, GimpToolDialog, messagedialog {
+    background-color: @background-3;
+}
+
+/******** Header Bar ********/
+
+headerbar {
+    background-color: @background-3;
+    border-bottom: 1px solid @border;
+}
+
+/******** Separator ********/
+
+separator {
+    background-color: @border;
+}
+
+paned > separator {
+    background-color: @border;
+}
+
+/******** Tooltip ********/
+
+tooltip {
+    background-color: @background-3;
+    border: 1px solid @border;
+}
+
+tooltip decoration {
+    box-shadow: 0px 1px 2px @shadow;
+}
+
+/******** Scrollbar ********/
+
+scrollbar {
+    background-color: @background-2;
+}
+
+scrollbar slider{
+    background-color: @background-5;
+}
+
+/******** Popover ********/
+
+popover {
+    background-color: @background-3;
+    border: 1px solid @border;
+    box-shadow: 0px 1px 2px @shadow;
+}
+
+/******** Button ********/
+
+button {
+    background-color: @background-4;
+    border: 1px solid @border-control;
+}
+
+button:hover {
+    background-color: @hover
+}
+
+button:checked {
+    background-color: @background-primary;
+    border: 1px solid @border-primary;
+}
+
+button:checked:hover {
+    background-color: @background-primary-dark;
+    border: 1px solid @border-primary;
+}
+
+button:disabled {
+    background-color: @background-disabled;
+    border: 1px solid @border-disabled;
+}
+
+.suggested-action {
+    background-color: @background-primary;
+    border: 1px solid @border-primary;
+}
+
+.suggested-action:hover {
+    background-color: @background-primary-dark;
+    border: 1px solid @border-primary;
+}
+
+/******** Check Button ********/
+
+check {
+    background-color: @background-4;
+    border: 1px solid @border-control;
+}
+
+check:checked {
+    background-color: @background-primary;
+    border: 1px solid @border-primary;
+}
+
+check:hover {
+    background-color: @hover;
+}
+
+check:checked:hover {
+    background-color: @background-primary-dark;
+    border: 1px solid @border-primary;
+}
+
+/******** Radio Button ********/
+
+radio {
+    background-color: @background-4;
+    border: 1px solid @border-control;
+}
+
+radio:checked {
+    background-color: @background-primary;
+    border: 1px solid @border-primary;
+}
+
+radio:hover {
+    background-color: @hover;
+}
+
+radio:checked:hover {
+    background-color: @background-primary-dark;
+    border: 1px solid @border-primary;
+}
+
+/******** Switch ********/
+
+switch {
+    background-color: @background-4;
+    border: 1px solid @border-control;
+}
+
+switch:checked {
+    background-color: @background-primary;
+    border: 1px solid @border-primary;
+}
+
+switch slider {
+    background-color: @background-5;
+}
+
+switch:checked slider {
+    background-color: @background-4;
+}
+
+/******** Entry ********/
+
+entry {
+    background-color: @background-4;
+    border: 1px solid @border-control;
+}
+
+entry:focus {
+    border: 1px solid @border-primary;
+}
+
+/******** Scale ********/
+
+scale slider {
+    background-color: @background-primary;
+    border: 1px solid @border-primary;
+}
+
+scale slider:disabled {
+    background-color: @background-disabled;
+    border: 1px solid @border-disabled;
+}
+
+scale highlight {
+    background-color: @background-primary;
+    border: 1px solid @border-primary;
+}
+
+scale highlight:disabled {
+    background-color: @background-disabled
+}
+
+scale trough {
+    background-color: @background-4;
+    border: 1px solid @border-control;
+}
+
+/******** Gimp Spin Scale ********/
+
+GimpSpinScale progress {
+    background-color: @background-primary;
+    border: 1px solid @border-primary;
+}
+
+GimpSpinScale progress:disabled {
+    background-color: @background-disabled;
+    border-color: @border-disabled;
+}
+
+/******** Menu Item ********/
+
+menubar {
+    background-color: @background-3;
+}
+
+window > box > menubar {
+    border-bottom: 1px solid @border;
+}
+
+menubar > menuitem:hover {
+    background-color: @hover;
+}
+
+.popup {
+    background-color: @background-3;
+}
+
+.popup decoration {
+    border: 1px solid @border;
+    box-shadow: 0px 1px 2px @shadow;
+}
+
+menuitem:hover {
+    background-color: @hover;
+}
+
+/******** Tool Bar ********/
+
+toolbutton window decoration{
+    border: 1px solid @border;
+}
+
+toolbutton window {
+    background-color: @background-3;
+}
+
+GimpDock > box > box > flowbox {
+    border-bottom: 1px solid @border;
+}
+
+/******** List ********/
+
+list {
+    background-color: @background-2;
+}
+
+list row:selected {
+    background-color: @background-primary;
+    border-top: 1px solid @border-primary;
+    border-bottom: 1px solid @border-primary;
+}
+  
+list row:hover {
+    background-color: @hover;
+}
+
+list row:selected:hover {
+    background-color: @background-primary-dark;
+    border-top: 1px solid @border-primary;
+    border-bottom: 1px solid @border-primary;
+}
+
+/******** Tree View ********/
+
+.frame {
+    border: 1px solid @border;
+    background-color: @background-2;
+}
+
+treeview:selected {
+    background-color: @background-primary;
+    border-top: 1px solid @border-primary;
+    border-bottom: 1px solid @border-primary;
+}
+
+treeview:hover {
+    background-color: @hover;
+}
+
+treeview:selected:hover {
+    background-color: @background-primary-dark;
+    border-top: 1px solid @border-primary;
+    border-bottom: 1px solid @border-primary;
+}
+
+treeview header button {
+    background-color: @background-2;
+    border-color: @border;
+}
+
+treeview header button:hover {
+    background-color: @background-2;
+    border-color: @border;
+}
+
+treeview header button:last-child {
+    background-color: @background-2;
+    border-color: @border;
+}
+
+treeview header button:last-child:hover {
+    background-color: @background-2;
+    border-color: @border;
+}
+
+/******** Gimp Display Shell ********/
+
+GimpDisplayShell grid {
+    background-color: @background-1;
+}
+
+GimpRuler {
+    background-color: @background-3;
+}
+
+/******** Status Bar ********/
+
+statusbar {
+    background-color: @background-3;
+    border-top: 1px solid @border;
+}
+
+/******** Dialog ********/
+
+GimpFileDialog actionbar {
+    border-top: 1px solid @border;
+}
+
+widget.view {
+    background-color: @background-2;
+    border: 1px solid @border;
+}
+
+/******** Notebook ********/
+
+notebook {
+    background-color: @background-3;
+}
+
+notebook header {
+    background-color: @background-2;
+    border-bottom: 1px solid @border;
+}
+
+notebook header tabs tab {
+    border-right: 1px solid @border;
+}
+
+notebook header tabs tab:checked {
+    background-color: @background-3;
+}
+  
+notebook header tabs tab:hover {
+    background-color: @background-3;
+}
+
+/******** Miscellaneous ********/
