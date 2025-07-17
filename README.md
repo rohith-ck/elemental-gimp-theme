@@ -2,11 +2,27 @@
 
 Elemental is a theme designed for GIMP 3
 
+## Theme Variants
+
+- **Light** – A light interface with blue as the primary color.
+- **Dark** – A dark interface with blue as the primary color.
+- **Gray Light** – A light interface with a gray as the primary color.
+- **Gray Dark** – A dark interface with a gray as the primary color.
+
 _Note: This theme has been tested on a 1920x1080 resolution screen.
       If you encounter any issues or have suggestions, please open an issue on the [GitHub repository](https://github.com/rohith-ck/elemental-gimp-theme)._
 
+_Elemental Light_
 ![Elemental GIMP 3 Light Theme](Screenshots/Elemental-Light.png)
+
+_Elemental Dark_
 ![Elemental GIMP 3 Dark Theme](Screenshots/Elemental-Dark.png)
+
+_Elemental Gray Light_
+![Elemental Gray GIMP 3 Light Theme](Screenshots/Elemental-Gray-Light.png)
+
+_Elemental Gray Dark_
+![Elemental Gray GIMP 3 Dark Theme](Screenshots/Elemental-Gray-Dark.png)
 
 ## Installation Guide
 
