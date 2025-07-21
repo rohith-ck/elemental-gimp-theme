@@ -392,4 +392,10 @@ notebook header tabs tab:hover {
     background-color: @background-3;
 }
 
+/******** Splash ********/
+
+progress {
+    background-color: @background-selection;
+}
+
 /******** Miscellaneous ********/
