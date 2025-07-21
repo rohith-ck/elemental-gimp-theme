@@ -379,6 +379,11 @@ notebook > stack > widget > box > scrolledwindow {
     margin: 4px;
 }
 
+notebook > stack > widget > box > scrolledwindow > treeview > header > button {
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
 notebook > stack > widget > box > label {
     margin: 4px;
 }
