@@ -52,6 +52,7 @@ headerbar {
 }
 
 .minimize:hover, .maximize:hover, .close:hover {
+    background-color: transparent;
     border: none;
 }
 
@@ -105,6 +106,7 @@ button {
 }
 
 .flat:hover {
+    background-color: transparent;
     border-color: transparent;
 }
 
