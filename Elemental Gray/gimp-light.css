@@ -17,7 +17,7 @@
 
 @define-color text                      @gray-90;
 @define-color text-disabled             @gray-60;
-@define-color text-selection            @gray-90;
+@define-color text-selection            @gray-0;
 
 @define-color background-1              @gray-20;
 @define-color background-2              @gray-10;
