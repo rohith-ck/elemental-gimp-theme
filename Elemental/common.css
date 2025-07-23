@@ -105,11 +105,6 @@ button {
     border-color: transparent;
 }
 
-.flat:hover {
-    background-color: transparent;
-    border-color: transparent;
-}
-
 .flat:disabled {
     background-color: transparent;
     border-color: transparent;
