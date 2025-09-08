@@ -187,7 +187,7 @@ switch:checked slider {
 
 /******** Entry ********/
 
-entry {
+entry, entry.flat {
     background-color: @background-4;
     border: 1px solid @border-control;
 }
